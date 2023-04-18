@@ -160,3 +160,24 @@ body{
 .delete button product {
     cursor: pointer;
 }
+
+/*Carrito counter*/
+
+.cantidad-carrito{
+    background-color: rgb(255, 51, 0);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top:37px;
+    right: 14px;
+    position:absolute;
+    display: none;
+}
+
+.sumar{
+    cursor: pointer;
+}
+.restar{
+    cursor: pointer;
+}
