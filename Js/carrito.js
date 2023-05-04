@@ -11,6 +11,7 @@ const pintarCarrito = () =>{
     const modalbutton = document.createElement("h1");
     modalbutton.innerText = "x";
     modalbutton.className = "modal-header-button";
+    
 
     modalbutton.addEventListener("click",()=> {
         modalContainer.style.display="none";
@@ -41,7 +42,7 @@ const pintarCarrito = () =>{
             saveLocal();
             pintarCarrito();
         })
-
+        
         let sumar = carritoContent.querySelector(".sumar")
         sumar.addEventListener("click",()=>{
             product.cantidad++;
